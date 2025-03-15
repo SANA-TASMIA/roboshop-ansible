@@ -1,0 +1,7 @@
+- name: Printing hello world by using role
+  ansible.builtin.debug: 
+    msg: Hello Wolrd
+
+- name: Printing Url
+  ansible.builtin.debug: 
+    msg: URL - {{ URL }}   
