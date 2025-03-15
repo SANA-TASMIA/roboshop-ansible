@@ -6,7 +6,7 @@
 #         msg: Hello world
 
 - name: demo roles
-  hosts: all
+  hosts: localhost
   roles: 
     - sample
 
