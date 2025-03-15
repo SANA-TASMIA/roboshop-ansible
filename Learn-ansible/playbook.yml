@@ -8,5 +8,5 @@
 - name: demo roles
   hosts: localhost
   roles: 
-    - sample
+    - Roles/sample
 
